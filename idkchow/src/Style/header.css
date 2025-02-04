@@ -1,0 +1,30 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  align-items: center;
+}
+.headerContainer > div:nth-child(1) {
+  margin-left: 20px;
+  font-weight: 900;
+  font-size: 32px;
+}
+.headerContainer > div > ul {
+  display: flex;
+}
+.headerContainer > div > ul > li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+}
+.headerContainer > div > ul > button{
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  font-weight: 900;
+  border-radius: 10px;
+  cursor: pointer ;
+}

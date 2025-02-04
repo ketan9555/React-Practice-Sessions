@@ -1,0 +1,15 @@
+.restrocard {
+  padding: 5px;
+  width: 200px;
+  /* height: 300px;  / */
+  background-color: rgb(153, 149, 149);
+  margin: 10px;
+}
+.restrocard > img {
+  width: 100%;
+}
+.restrocard:hover {
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: grey;
+}
